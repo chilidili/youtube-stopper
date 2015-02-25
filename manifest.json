@@ -1,0 +1,20 @@
+//can submit if necessary
+
+{
+
+	"name": "stop bruh",
+	"version":"1.0",
+	"description":"stop youtube",
+	"manifest_version": 2,
+
+
+  "content_scripts": [
+    { "matches": ["*://*/*"], "js": ["stopdude.js"]}
+  ],
+
+  "permissions": ["tabs"]
+	
+}
+
+
+
